@@ -7,8 +7,8 @@ salary INT,
 PRIMARY KEY(code)
 );
 
-INSERT INTO Employee VALUES('e1','Anu','Manager',1998-04-24,25000);
-INSERT INTO Employee VALUES('e2','Rinu','CEO',1996-03-15,32000);
+INSERT INTO Employee VALUES('e1','Anu','Manager','1998-04-24','25000');
+INSERT INTO Employee VALUES('e2','Rinu','CEO','1996-03-15','32000');
 
 SELECT  * FROM employee;
 
